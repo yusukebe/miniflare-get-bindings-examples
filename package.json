@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev:basic:hono": "tsx ./src/workers/hono-basic.ts",
+    "dev:vite:handler": "vite -c vite.handler.config.ts",
+    "dev:vite:hono": "vite -c vite.hono.config.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.1.0",
+    "hono": "^3.5.4",
+    "miniflare": "3.20230821.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230821.0",
+    "@types/node": "^20.5.7",
+    "tsx": "^3.12.2",
+    "vite": "^4.4.9",
+    "wrangler": "^3.6.0"
+  }
+}

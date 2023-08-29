@@ -1,0 +1,6 @@
+name = "miniflare-get-bindings-example"
+compatibility_date = "2023-01-01"
+
+kv_namespaces = [
+  { binding = "MY_KV", id = "", preview_id = "" }
+]
