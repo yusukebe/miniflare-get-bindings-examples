@@ -3,7 +3,7 @@
     "dev:basic:hono": "tsx ./src/hono-basic.ts",
     "dev:vite:handler": "vite -c vite.handler.config.ts",
     "dev:vite:hono": "vite -c vite.hono.config.ts",
-    "dev:wrangler:hono": "wrangler dev ./src/workers/hono.ts",
+    "dev:wrangler:hono": "wrangler dev ./src/workers/hono.tsx",
     "dev:wrangler:handler": "wrangler dev ./src/workers/handler.ts"
   },
   "dependencies": {

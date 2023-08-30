@@ -45,6 +45,10 @@ serve({
 
 Additionally, by creating a custom Vite dev-server, you can integrate bindings with Vite. You can also run it using the `wrangler dev` or `wrangler pages dev` commands, or deploy it to Cloudflare.
 
+## Demo
+
+https://github.com/yusukebe/miniflare-get-bindings-examples/assets/10682/a568e999-7e92-4a52-bf66-0a30211b250a
+
 ## Directory Structure
 
 ```plain
